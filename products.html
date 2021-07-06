@@ -5,45 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATShop</title>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- boxicons -->
+    <meta property="og:image" content="https://i.pinimg.com/564x/a9/5a/c4/a95ac41b6c87b332c8aab03e8516ee62.jpg" />
+    <title>Thành Nam Headphone Shop</title>
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <!-- app css -->
+
+    <!-- Preload page -->
+    <link rel="stylesheet" href="./lib/loader-page/loader.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Reponsive -->
     <link rel="stylesheet" href="./css/grid.css">
-    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-
-    <!-- header -->
+    <div id="scroll-to-top"></div>
+    <!-- header start -->
     <header>
-        <!-- mobile menu -->
-        <div class="mobile-menu bg-second">
-            <a href="#" class="mb-logo">ATShop</a>
+        <!-- mobile menu start -->
+        <div class="mobile-menu">
+            <a href="./index.html" class="logo">
+                <img src="./lib/loader-page/logo.svg" alt="logo">
+            </a>
             <span class="mb-menu-toggle" id="mb-menu-toggle">
                 <i class='bx bx-menu'></i>
             </span>
         </div>
-        <!-- end mobile menu -->
-        <!-- main header -->
+        <!-- mobile menu end -->
+
+        <!-- main header start -->
         <div class="header-wrapper" id="header-wrapper">
             <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
                 <i class='bx bx-x'></i>
             </span>
-            <!-- end top header -->
-            <!-- mid header -->
+            <!-- mid header start -->
             <div class="bg-main">
                 <div class="mid-header container">
-                    <a href="#" class="logo">
+                    <a href="./index.html" class="logo">
                         <img src="./lib/loader-page/logo.svg" alt="logo">
                     </a>
                     <div class="search">
-                        <input type="text" placeholder="Search">
+                        <input type="text" placeholder="Tìm kiếm">
                         <i class='bx bx-search-alt'></i>
                     </div>
                     <ul class="user-menu">
@@ -53,81 +65,82 @@
                     </ul>
                 </div>
             </div>
-            <!-- end mid header -->
-            <!-- bottom header -->
+            <!-- mid header end -->
+
+            <!-- bottom header start -->
             <div class="bg-second">
                 <div class="bottom-header container">
                     <ul class="main-menu">
-                        <li><a href="#">home</a></li>
+                        <li><a href="#">Trang chủ</a></li>
                         <!-- mega menu -->
                         <li class="mega-dropdown">
-                            <a href="./products.html">Shop<i class='bx bxs-chevron-down'></i></a>
+                            <a href="./products.html">Cửa hàng<i class='bx bxs-chevron-down'></i></a>
                             <div class="mega-content">
                                 <div class="row">
-                                    <div class="col-3 col-md-12">
+                                    <div class="col l-3 ml-3 m-6 sm-12 s-12">
                                         <div class="box">
-                                            <h3>Categories</h3>
+                                            <h3>Danh Mục 1</h3>
                                             <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
+                                                <li><a href="#">Tai Nghe Wireless</a></li>
+                                                <li><a href="#">Tai Nghe Inear</a></li>
+                                                <li><a href="#">Tai Nghe Overear</a></li>
+                                                <li><a href="#">Tai Nghe Thể Thao</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-md-12">
+                                    <div class="col l-3 ml-3 m-6 sm-12 s-12">
                                         <div class="box">
-                                            <h3>Categories</h3>
+                                            <h3>Danh Mục 2</h3>
                                             <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
+                                                <li><a href="#">Tai Nghe Wireless</a></li>
+                                                <li><a href="#">Tai Nghe Inear</a></li>
+                                                <li><a href="#">Tai Nghe Overear</a></li>
+                                                <li><a href="#">Tai Nghe Thể Thao</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-md-12">
+                                    <div class="col l-3 ml-3 m-6 sm-12 s-12">
                                         <div class="box">
-                                            <h3>Categories</h3>
+                                            <h3>Danh Mục 3</h3>
                                             <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
+                                                <li><a href="#">Tai Nghe Wireless</a></li>
+                                                <li><a href="#">Tai Nghe Inear</a></li>
+                                                <li><a href="#">Tai Nghe Overear</a></li>
+                                                <li><a href="#">Tai Nghe Thể Thao</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-md-12">
+                                    <div class="col l-3 ml-3 m-6 sm-12 s-12">
                                         <div class="box">
-                                            <h3>Categories</h3>
+                                            <h3>Danh Mục 4</h3>
                                             <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
+                                                <li><a href="#">Tai Nghe Wireless</a></li>
+                                                <li><a href="#">Tai Nghe Inear</a></li>
+                                                <li><a href="#">Tai Nghe Overear</a></li>
+                                                <li><a href="#">Tai Nghe Thể Thao</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row img-row">
-                                    <div class="col-3">
+                                    <div class="col l-3 ml-3">
                                         <div class="box">
                                             <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png"
                                                 alt="">
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col l-3 ml-3">
                                         <div class="box">
                                             <img src="./images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png"
                                                 alt="">
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col l-3 ml-3">
                                         <div class="box">
-                                            <img src="./images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                                            <img src="./images/JBL_JR 310BT_Skyblue.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col l-3 ml-3">
                                         <div class="box">
                                             <img src="./images/JBLHorizon_001_dvHAMaster.png" alt="">
                                         </div>
@@ -135,48 +148,48 @@
                                 </div>
                             </div>
                         </li>
-                        <!-- end mega menu -->
+                        <!-- mega menu end -->
                         <li><a href="#">blog</a></li>
-                        <li><a href="#">contact</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- end bottom header -->
+            <!-- bottom header end -->
         </div>
-        <!-- end main header -->
+        <!-- main header end -->
     </header>
-    <!-- end header -->
+    <!-- header end -->
 
     <!-- products content -->
     <div class="bg-main">
         <div class="container">
             <div class="box">
                 <div class="breadcumb">
-                    <a href="./index.html">home</a>
+                    <a href="./index.html">Trang Chủ</a>
                     <span><i class='bx bxs-chevrons-right'></i></span>
-                    <a href="./products.html">all products</a>
+                    <a href="./products.html">Danh sách sản phẩm</a>
                 </div>
             </div>
             <div class="box">
                 <div class="row">
-                    <div class="col-3 filter-col" id="filter-col">
+                    <div class="col l-3 ml-3 m-12 sm-12 s-12 filter-col" id="filter-col">
                         <div class="box filter-toggle-box">
-                            <button class="btn-flat btn-hover" id="filter-close">close</button>
+                            <button class="btn-flat btn-hover" id="filter-close">Đóng</button>
                         </div>
                         <div class="box">
                             <span class="filter-header">
-                                Categories
+                                Danh Mục
                             </span>
                             <ul class="filter-list">
-                                <li><a href="#">Wireless</a></li>
-                                <li><a href="#">In-ear headphone</a></li>
-                                <li><a href="#">Over-ear headphone</a></li>
-                                <li><a href="#">sport headphone</a></li>
+                                <li><a href="#">Tai Nghe Wireless</a></li>
+                                <li><a href="#">Tai Nghe In-ear</a></li>
+                                <li><a href="#">Tai Nghe Over-ear</a></li>
+                                <li><a href="#">Tai Nghe Thể Thao</a></li>
                             </ul>
                         </div>
                         <div class="box">
                             <span class="filter-header">
-                                Price
+                                Giá
                             </span>
                             <div class="price-range">
                                 <input type="text">
@@ -190,7 +203,7 @@
                                     <div class="group-checkbox">
                                         <input type="checkbox" id="status1">
                                         <label for="status1">
-                                            On sale
+                                            Giảm giá
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
@@ -199,7 +212,7 @@
                                     <div class="group-checkbox">
                                         <input type="checkbox" id="status2">
                                         <label for="status2">
-                                            In stock
+                                            Kho hàng
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
@@ -208,7 +221,7 @@
                                     <div class="group-checkbox">
                                         <input type="checkbox" id="status3">
                                         <label for="status3">
-                                            Featured
+                                            Mới
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
@@ -217,7 +230,7 @@
                         </div>
                         <div class="box">
                             <span class="filter-header">
-                                Brands
+                                Nhãn hiệu
                             </span>
                             <ul class="filter-list">
                                 <li>
@@ -269,50 +282,50 @@
                         </div>
                         <div class="box">
                             <span class="filter-header">
-                                Colors
+                                Màu sắc
                             </span>
                             <ul class="filter-list">
                                 <li>
                                     <div class="group-checkbox">
-                                        <input type="checkbox" id="remember1">
-                                        <label for="remember1">
-                                            Red
+                                        <input type="checkbox" id="color1">
+                                        <label for="color1">
+                                            Đỏ
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="group-checkbox">
-                                        <input type="checkbox" id="remember2">
-                                        <label for="remember2">
-                                            Blue
+                                        <input type="checkbox" id="color2">
+                                        <label for="color2">
+                                            Xanh
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="group-checkbox">
-                                        <input type="checkbox" id="remember3">
-                                        <label for="remember3">
-                                            White
+                                        <input type="checkbox" id="color3">
+                                        <label for="color3">
+                                            Trắng
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="group-checkbox">
-                                        <input type="checkbox" id="remember4">
-                                        <label for="remember4">
-                                            Pink
+                                        <input type="checkbox" id="color4">
+                                        <label for="color4">
+                                            Hồng
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="group-checkbox">
-                                        <input type="checkbox" id="remember5">
-                                        <label for="remember5">
-                                            Yellow
+                                        <input type="checkbox" id="color5">
+                                        <label for="color5">
+                                            Vàng
                                             <i class='bx bx-check'></i>
                                         </label>
                                     </div>
@@ -321,7 +334,7 @@
                         </div>
                         <div class="box">
                             <span class="filter-header">
-                                rating
+                                Xếp hạng
                             </span>
                             <ul class="filter-list">
                                 <li>
@@ -402,7 +415,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-9 col-md-12">
+                    <div class="col l-9 ml-9 m-12 sm-12 s-12">
                         <div class="box filter-toggle-box">
                             <button class="btn-flat btn-hover" id="filter-toggle">filter</button>
                         </div>
@@ -431,41 +444,39 @@
     <footer class="bg-second">
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-6">
-                    <h3 class="footer-head">Products</h3>
+                <div class="footer-item col l-3 ml-3 m-6 sm-12 s-12">
+                    <h3 class="footer-head">Sản phẩm</h3>
                     <ul class="menu">
-                        <li><a href="#">Help center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">product help</a></li>
-                        <li><a href="#">warranty</a></li>
-                        <li><a href="#">order status</a></li>
+                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Hỗ trợ sản phẩm</a></li>
+                        <li><a href="#">Uy tín - Chất lượng</a></li>
+                        <li><a href="#">Trạng thái đặt hàng</a></li>
                     </ul>
                 </div>
-                <div class="col-3 col-md-6">
-                    <h3 class="footer-head">services</h3>
+                <div class="footer-item col l-3 ml-3 m-6 sm-12 s-12">
+                    <h3 class="footer-head">Dịch vụ</h3>
                     <ul class="menu">
-                        <li><a href="#">Help center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">product help</a></li>
-                        <li><a href="#">warranty</a></li>
-                        <li><a href="#">order status</a></li>
+                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Hỗ trợ sản phẩm</a></li>
+                        <li><a href="#">Uy tín - Chất lượng</a></li>
+                        <li><a href="#">Trạng thái đặt hàng</a></li>
                     </ul>
                 </div>
-                <div class="col-3 col-md-6">
-                    <h3 class="footer-head">support</h3>
+                <div class="footer-item col l-3 ml-3 m-6 sm-12 s-12">
+                    <h3 class="footer-head">Hỗ trợ</h3>
                     <ul class="menu">
-                        <li><a href="#">Help center</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">product help</a></li>
-                        <li><a href="#">warranty</a></li>
-                        <li><a href="#">order status</a></li>
+                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Hỗ trợ sản phẩm</a></li>
+                        <li><a href="#">Uy tín - Chất lượng</a></li>
+                        <li><a href="#">Trạng thái đặt hàng</a></li>
                     </ul>
                 </div>
-                <div class="col-3 col-md-6 col-sm-12">
+                <div class="footer-item col l-3 ml-3 m-6 sm-12 s-12">
                     <div class="contact">
-                        <h3 class="contact-header">
-                            ATShop
-                        </h3>
+                        <img src="./lib/loader-page/logo.svg" alt="">
                         <ul class="contact-socials">
                             <li><a href="#">
                                     <i class='bx bxl-facebook-circle'></i>
@@ -481,19 +492,59 @@
                                 </a></li>
                         </ul>
                     </div>
-                    <div class="subscribe">
-                        <input type="email" placeholder="ENTER YOUR EMAIL">
-                        <button>subscribe</button>
-                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- end footer -->
 
-    <!-- app js -->
+    <!-- Go back start -->
+    <div class="scroll-up-btn">
+        <a href="#scroll-to-top"> <i class='bx bxs-chevron-up'></i></a>
+    </div>
+    <!-- Go back end -->
+
+    <!-- Preloader start -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div id="loader_logo"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Preloader end -->
+
+    <!-- Main JS -->
     <script src="./js/app.js"></script>
     <script src="./js/products.js"></script>
+    <script src="./js/reload_scroll-top.js"></script>
+
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "105825651245887");
+        chatbox.setAttribute("attribution", "page_inbox");
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v11.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>
